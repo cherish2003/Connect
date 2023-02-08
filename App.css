@@ -1,0 +1,22 @@
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.Msg {
+  height: calc(100% - 135px);
+
+}
+.Reciever{
+ 
+  flex-direction: row-reverse;
+  
+}
+.Reciever p{
+  
+  background-color: #1e293b;
+  color: white;
+  border-radius: 6px;
+}
